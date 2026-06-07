@@ -1,0 +1,24 @@
+{
+    "model": "Random Forest Regressor - True Forecasting",
+    "target": "target_energy_next_day",
+    "features": [
+        "year",
+        "month",
+        "day_of_month",
+        "day_of_week",
+        "is_weekend",
+        "quarter",
+        "lag_1",
+        "lag_7",
+        "lag_30",
+        "rolling_7_mean",
+        "rolling_30_mean"
+    ],
+    "training_rows": 2674581,
+    "testing_rows": 663537,
+    "metrics": {
+        "MAE": 2.2981303742619255,
+        "RMSE": 4.163193391782534,
+        "R2": 0.8285530285131798
+    }
+}

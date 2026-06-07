@@ -1,0 +1,33 @@
+{
+    "model": "Random Forest Regressor",
+    "target": "energy_sum",
+    "features": [
+        "energy_median",
+        "energy_mean",
+        "energy_max",
+        "energy_count",
+        "energy_std",
+        "energy_min",
+        "year",
+        "month",
+        "day_of_month",
+        "day_of_week",
+        "is_weekend",
+        "quarter",
+        "lag_1",
+        "lag_7",
+        "lag_30",
+        "rolling_7_mean",
+        "rolling_30_mean",
+        "daily_range",
+        "usage_variability",
+        "peak_to_average_ratio"
+    ],
+    "training_rows": 2680130,
+    "testing_rows": 663544,
+    "metrics": {
+        "MAE": 0.0191470964723069,
+        "RMSE": 1.3349451136320376,
+        "R2": 0.9823718786320954
+    }
+}

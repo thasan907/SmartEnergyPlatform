@@ -1,0 +1,33 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Database
+*.db
+
+# Environment
+.env
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Reports
+*.pdf
+*.xlsx
+
+# Archive
+archive*/
+
+# Large data and model files
+data/
+ml/models/
+*.pkl
+*.csv
